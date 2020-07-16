@@ -35,7 +35,7 @@ function showerror(error) {
 }
 
 function getWeather(latitude,longitude) {
-    let API = `https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}`
+    let API = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}`
  console.log(API)
  
         fetch(API)
